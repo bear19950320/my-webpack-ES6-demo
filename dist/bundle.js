@@ -72,7 +72,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__moduleTest_js__ = __webpack_require__(1);
 
 Object(__WEBPACK_IMPORTED_MODULE_0__moduleTest_js__["a" /* say */])();
-test();
+
 
 /***/ }),
 /* 1 */
@@ -84,9 +84,9 @@ test();
 //moduleTest.js
 function say(){
 
-    console.log('我引用了一个模块--');
+    console.log('我引用了一个模块-.- jim Bear');
     // 调用下面呼唤的方法
-   // test();
+    test();
 }
 //呼唤test.js的方法 通过路径
 

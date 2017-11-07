@@ -1,9 +1,9 @@
 //moduleTest.js
 function say(){
 
-    console.log('我引用了一个模块--');
+    console.log('我引用了一个模块-.- jim Bear');
     // 调用下面呼唤的方法
-   // test();
+    test();
 }
 //呼唤test.js的方法 通过路径
 import {demo} from './test.js';
